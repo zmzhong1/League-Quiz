@@ -1,0 +1,68 @@
+*{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: solid 2px red;
+}
+
+header > *{
+    border: solid black 3px;
+    border-radius: 6px;
+    margin: 15px 5%;
+    font-size: 120%;
+    padding: 10px;
+}
+
+#scores {
+    
+}
+
+#container {
+    border: solid darkblue;
+    border-radius: 6px;
+    margin: 30px 10% 20px;
+    display: flex;
+    flex-direction: column;
+}
+#container > * {
+    margin: 20px 5%;
+    align-self: center;
+}
+#title {
+    font-size: 120%;
+}
+content {
+    font-size: 120%;
+    text-align: justify;
+}
+button {
+    background-color: beige;
+    color: black; 
+    border: solid black 3px;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 125%;
+    font-weight: 600;
+}
+#button1, #button2, #button3, #button4, #restart, #clearButton {
+    align-self: flex-start;
+}
+footer {
+    text-align: center;
+    font-size: 150%;
+}
+button:hover {
+    cursor: pointer;
+}
+
+
+/* ye 4 button should be enough */
+/* fougn some quiz q for multiple hoice */
