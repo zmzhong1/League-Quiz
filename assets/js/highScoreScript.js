@@ -3,8 +3,8 @@ var scoreSpan = document.querySelector("#score");
 
 // Displays the initals and score on the scoreboard page
 function renderScore() {
-    var name = localStorage.getItem("currentScore");
-    var score = localStorage.getItem("initial");
+    var name = localStorage.getItem("initial");
+    var score = localStorage.getItem("currentScore");
     console.log(name);
     console.log(score);
     if(!name || !score) {
